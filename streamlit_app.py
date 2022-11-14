@@ -72,7 +72,7 @@ if streamlit.button('Get fruit load list'):
         streamlit.dataframe(my_data_rows)
 
 # do not run anything past here while we are troubleshooting
-streamlit.stop()        
+#streamlit.stop()        
 
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
